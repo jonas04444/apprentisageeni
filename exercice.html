@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cas selector</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <!-- appliquer une police de caractère sans sérif à la page-->
@@ -35,8 +36,54 @@
             <h1>Titre</h1>
             <h4>Chapeau</h4>
         </header>
-        <!--sélectionner chaque article et appliquer une couleur de fond-->
+        <!--sélectionner chaque article et appliquer une couleur de fond, ajouter du margin pour séparer la balise article des autres artiches-->
+        <article>
+            <!--mettre un fond gris au header de tous les articles et un padding-->
+            <header>
+                <span>Ecrit le 14/03/2022</span>
+            </header>
+            <!--metttre le texte de ce h3 en bleu-->
+            <!--mettre la première lettre de chaque h3, dans un article, en majuscule-->
+            <!--modifier line-height: 0; de chaque h3, pour optimiser l'espace.-->
+            <!--mettre un padding 10px à tous les h3 d'un article-->
+                <h3>sous-titre</h3>
+            <!--mettre un padding de 10px à tous les p d'un article-->
+            <p>lommer ipsum dolor seit amet consecteter</p>
+            <!-- mettre un fond gris au footeur (comme le leader) de tous les articles et un pading-->
+            <footer>
+                <span>auteur: Bobbette</span>
+            </footer>
+        </article>
+        <article>
+            <header>
+                <span>Ecrit le 18/03/2022</span>
+            </header>
+            <!--mettre le texte de ce h3 en rouge-->
+            <!--mettre la première lettre de chaque h3 dans un article en majuscule-->
+            <h3>sous-titre 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicien. id nam ofjiaijefo</p>
+            <!--mettre ce style:
+                display:inline-block;
+                width:50px;
+                height:50px;
+                margin:10px;
+                padding:10px;
+                à toutes les div dont la classe commence par box_ avec une couleur d'arrière-plan au choix -->
+                    <div class="box_1">1</div>
+                    <div class="box_2">2</div>
+                    <div class="box_3">3</div>
+                <!--idem pour toutes les div dont la classe commence par megaBox_ mais avec des dimensions de 80px de côté. et toujours une couleur d'arrière-plan au choix -->
+                <div class="megaBox_1">1</div>
+                <div class="megaBox_2">2</div>
+                <div class="megaBox_3">3</div>
+                <footer>
+                    <span>Auteur: Box Marcel</span>
+                </footer>
+        </article>
     </section>
+    <footer>
+        <!--appliquer à cette balise ul le style text-align:center;-->
+    </footer>
     
 </body>
 </html>
